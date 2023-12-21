@@ -1,0 +1,60 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    margin: 0;
+    font-size: 18px;
+}
+
+p {
+    padding: 0;
+}
+
+.result {
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: whitesmoke;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px;
+}
+
+.result-circle {
+    border-radius: 50%;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.result-value {
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.lavender {
+    color: hsl(241, 100%, 89%)
+}
+
+.summary {
+    padding: 30px;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+.box {
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reaction {
+    background-color: hsla(0, 100%, 67%, 0.082);
+}
