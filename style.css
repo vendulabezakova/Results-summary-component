@@ -53,8 +53,31 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 15px 0;
+    font-weight: 700;
+    align-items: center;
 }
 
 .reaction {
     background-color: hsla(0, 100%, 67%, 0.082);
+}
+
+.memory {
+    background-color: hsla(39, 100%, 56%, 0.13);
+}
+
+.verbal {
+ background-color: hsla(166, 100%, 37%, 0.151);
+}
+
+.visual {
+    background-color: hsla(234, 85%, 45%, 0.164);
+}
+
+.light-color {
+    color: rgba(114, 114, 114, 0.521);
+}
+
+img {
+    margin: 0 15px 0 0;
 }
