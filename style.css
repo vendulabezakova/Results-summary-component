@@ -101,3 +101,34 @@ a {
 a:hover a:active {
     color: hsla(256, 72%, 46%, 1);
 }
+
+@media (min-width: 992px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: 35%;
+        margin: 10% auto 5px;
+        box-shadow: 9px 10px 50px -1px hsl(221, 100%, 96%);
+        border-radius: 30px;
+    }
+
+    .result {
+        border-radius: 30px;
+    }
+
+    .result-circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    button {
+        width:100%;
+        margin: 10px 0;
+        padding: 12px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+}
