@@ -40,7 +40,7 @@ p {
 }
 
 .summary {
-    padding: 30px;
+    padding: 10px 30px;
 }
 
 h2 {
@@ -67,11 +67,11 @@ h2 {
 }
 
 .verbal {
- background-color: hsla(166, 100%, 37%, 0.151);
+ background-color: hsla(166, 100%, 37%, 0.09);
 }
 
 .visual {
-    background-color: hsla(234, 85%, 45%, 0.164);
+    background-color: hsla(234, 85%, 45%, 0.084);
 }
 
 .light-color {
@@ -80,4 +80,24 @@ h2 {
 
 img {
     margin: 0 15px 0 0;
+}
+
+button {
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(0, 0%, 100%);
+    padding: 17px;
+    margin: 10px 30px;
+    border-radius: 30px;
+    width:85%;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+a {
+    color: hsla(256, 72%, 46%, 1);
+    text-decoration: none;
+}
+
+a:hover a:active {
+    color: hsla(256, 72%, 46%, 1);
 }
