@@ -8,6 +8,11 @@ p {
     padding: 0;
 }
 
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
 .result {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     color: whitesmoke;
@@ -43,7 +48,7 @@ p {
     padding: 10px 30px;
 }
 
-h2 {
+h1 {
     font-size: 1.1rem;
 }
 
@@ -93,12 +98,12 @@ button {
     font-weight: 600;
 }
 
-a {
+.attribution a {
     color: hsla(256, 72%, 46%, 1);
     text-decoration: none;
 }
 
-a:hover a:active {
+.attribution a:hover a:active {
     color: hsla(256, 72%, 46%, 1);
 }
 

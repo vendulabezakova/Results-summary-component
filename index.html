@@ -8,20 +8,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;600;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Results summary component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-  </style>
-</head>
-<body>
 
-<section class="main">
-<div class="result">
-  <h2 class="lavender">Your Result</h2>
+</head>
+<body class="main">
+
+<header class="result">
+  <h1 class="lavender">Your Result</h1>
   <div class="result-circle">
     <div class="result-value">
       76
@@ -29,38 +25,40 @@
     <div class="lavender">
       of 100
     </div>
-</div>
-  <p style="font-size: 1.5rem;">Great</p>
-  <p class="lavender">You scored higher than 65% of the people who have taken these tests.</p>
-</div> 
-<div class="summary">
+  </div>
+    <p style="font-size: 1.5rem;">Great</p>
+    <p class="lavender">You scored higher than 65% of the people who have taken these tests.</p>
+</header> 
+
+<main class="summary">
   <h2>Summary</h2>
 
   <div class="box reaction">
-    <div style="color: hsl(0, 100%, 67%);"><img src="assets/images/icon-reaction.svg">Reaction</div>
+    <div style="color: hsl(0, 100%, 67%);"><img src="assets/images/icon-reaction.svg" alt="Icon reaction">Reaction</div>
     <div>80 <span class="light-color">/ 100</span></div>
   </div>
 
-<div class="box memory">
-  <div style="color: hsl(39, 100%, 56%);"><img src="assets/images/icon-memory.svg">Memory</div>
-  <div>92 <span class="light-color">/ 100</span></div>
-</div>
+  <div class="box memory">
+    <div style="color: hsl(39, 100%, 56%);"><img src="assets/images/icon-memory.svg" alt="Icon memory">Memory</div>
+    <div>92 <span class="light-color">/ 100</span></div>
+  </div>
 
-<div class="box verbal">
-  <div style="color: hsl(166, 100%, 37%)"><img src="assets/images/icon-verbal.svg">Verbal</div>
-  <div>61 <span class="light-color">/ 100</span></div>
-</div>
+  <div class="box verbal">
+    <div style="color: hsl(166, 100%, 37%)"><img src="assets/images/icon-verbal.svg" alt="Icon Verbal">Verbal</div>
+    <div>61 <span class="light-color">/ 100</span></div>
+  </div>
 
-<div class="box visual">
-  <div style="color:hsl(234, 85%, 45%)"><img src="assets/images/icon-visual.svg">Visual</div>
-  <div>72 <span class="light-color">/ 100</span></div>
-</div>
-<button>Continue</button>
-</div>
-</section>
-<div class="attribution">
+  <div class="box visual">
+    <div style="color:hsl(234, 85%, 45%)"><img src="assets/images/icon-visual.svg" alt="Icon Visual">Visual</div>
+    <div>72 <span class="light-color">/ 100</span></div>
+  </div>
+
+  <button>Continue</button>
+</main>
+
+<footer class="attribution">
   Challenge by <a href="https://www.frontendmentor.io/solutions/results-summary-component-flex-grid-rgWcq3W2ru" target="_blank">Frontend Mentor</a>. 
   Coded by <a href="https://github.com/vendulabezakova" target="_blank">Vendy Bezáková</a>.
-</div>
+</footer>
 </body>
 </html>
