@@ -10,7 +10,8 @@ p {
 
 .attribution { 
     font-size: 11px; 
-    text-align: center; 
+    text-align: center;
+    margin-top: auto;
 }
 
 .result {
@@ -111,10 +112,10 @@ button {
     .main {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        width: 35%;
         margin: 10% auto 5px;
         box-shadow: 9px 10px 50px -1px hsl(221, 100%, 96%);
         border-radius: 30px;
+        width: 40%;
     }
 
     .result {
@@ -135,5 +136,7 @@ button {
     h2 {
         font-size: 21px;
     }
+
+
 
 }
